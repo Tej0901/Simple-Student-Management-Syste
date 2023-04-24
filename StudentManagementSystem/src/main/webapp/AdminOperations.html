@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Operations</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<b><br><h2>choose operations below</h2></b>
+
+<form action="DatabaseAccess" method="post">
+
+	<fieldset>
+    <legend>Student Details:</legend>
+    <div class="row">
+    <input type="submit" name="fetchAllDetails" value="Fetch All Student Details"><br>
+    </div>
+    </fieldset>
+    
+    <fieldset>
+    <label for="studentId">Student ID:</label>
+    <input type="text" id="studentId" name="studentId"><br>
+    <label for="studentName">Student Name:</label>
+    <input type="text" id="studentName" name="studentName"><br>
+    <label for="studentStd">Student STD:</label>
+    <input type="text" id="studentStd" name="studentStd"><br>
+    <label for="studentAge">Student Age:</label>
+    <input type="text" id="studentAge" name="studentAge"><br>
+	</fieldset>
+    <!-- <input type="submit" name="fetch" value="Fetch">
+    <input type="submit" name="delete" value="Delete">
+    <input type="submit" name="update" value="Update"> -->
+    <fieldset>
+    <div>
+    <p >choose any option below to perform</p>
+	<input type="radio" id="fetch" name="stdDetails" value="Fetch">
+	<label for="fetch">Fetch</label>
+	<input type="radio" id="delete" name="stdDetails" value="Delete">
+	<label for="delete">Delete</label>
+	<input type="radio" id="update" name="stdDetails" value="Update">
+	<label for="update">Update</label>
+	<input type="radio" id="insert" name="stdDetails" value="Insert">
+	<label for="insert">Insert</label>
+  
+    <input type="submit" value="Submit">
+    </div>
+  </fieldset>
+</form>
+<div class="footer">
+ <b>@Copyright Teja-pt7068 </b></a> <b>2023- All Right Reserved. </b> 
+</div>
+
+</body>
+</html>
